@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Portfolio of Bernando Virto Gunawan, aspiring Data Scientist with projects in machine learning, data analysis, and visualization."" />
+        <meta name="author" content="" />
+        <title>Bernando Virto Gunawan | Data Scientist Portofolio</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- AOS CSS -->
+        <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Bernando Virto Gunawan</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certificates">Certificates</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+
+            <!-- Home -->
+            <section class="resume-section" id="home" style="position: relative; min-height: 100vh;">
+            <div class="resume-section-content text-center">
+                <h1 class="mb-0">
+                Bernando Virto <span class="text-primary">Gunawan</span>
+                </h1>
+                <p class="lead mb-5">
+                <span id="typing"></span>
+                </p>
+            </div>
+
+            <div class="social-icons">
+                <a class="social-icon" href="https://www.linkedin.com/in/bernando-gunawan-45790024b/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="social-icon" href="https://github.com/bernandogunawan"><i class="fab fa-github"></i></a>
+                <a class="social-icon" href="https://www.instagram.com/bernandovirto/"><i class="fab fa-instagram"></i></a>
+            </div>
+            </section>
+            <hr class="m-0" />
+
+            <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            const roles = ["Data Analyst", "Data Scientist", "Machine Learning Enthusiast"];
+            let i = 0;
+            const typingElement = document.getElementById("typing");
+
+            function rotateText() {
+                typingElement.textContent = roles[i];
+                i = (i + 1) % roles.length;
+            }
+
+            rotateText(); // initial
+            setInterval(rotateText, 1500); // change every 1.5s
+            });
+            </script>
+
+
+
+
+
+            <!-- About -->
+            <section class="resume-section" id="about">
+            <div class="resume-section-content">
+                <h2 class="mb-5">About Me</h2>
+
+                <div class = "text-center" data-aos="fade-up">
+                
+                <!-- Short Intro -->
+                <p class="lead mb-4">
+                I am an aspiring <b>Data Analyst</b> passionate about transforming data into actionable insights.  
+                Skilled in Python, SQL, and data visualization, I enjoy solving real-world problems and building projects 
+                that combine analytical thinking with practical impact.
+                </p>
+                
+                <!-- Skills Badges -->
+                <div class="mb-3">
+                <span class="badge bg-primary me-2">Python</span>
+                <span class="badge bg-success me-2">SQL</span>
+                <span class="badge bg-info me-2">Data Viz</span>
+                <span class="badge bg-warning text-dark me-2">Machine Learning</span>
+                </div>
+                
+                <!-- Personal Quote -->
+                <p class="fst-italic mb-4">"I love turning complex data into clear insights."</p>
+                
+                <!-- Mini Stats -->
+                <div class="d-flex justify-content-center gap-4 mt-3">
+                <div><b>4+</b> Projects</div>
+                <div><b>3</b> Languages</div>
+                <div><b>2+</b> Years Learning</div>
+                </div>
+                </div>
+            </div>
+            </section>
+            <hr class="m-0" />
+
+
+
+
+            <!-- Projects -->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="row">
+                   
+                        <!-- Project 1 -->
+                        <div class="col-md-6 mb-4" data-aos="fade-up">
+                            <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Used Car Price Prediction</h5>
+                                <p class="card-text">Developed a regression model to predict used car prices based on features such as region, engine size, and gear type.  
+                                Performed extensive data cleaning, feature engineering, and model evaluation.  </p>
+                                <a href="https://github.com/bernandogunawan/Capstone_3" target="_blank" class="btn btn-primary">View on GitHub</a>
+                                <!-- Embedded Google Slides -->
+                                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQytsgm4Zpzrs6Uo4U2jRygWZ262hk9zy6U6xDReQHJ74qUUBtEMMuRuDxNuxyoAA/pubembed?start=false&loop=true&delayms=3000" 
+                                frameborder="0" width="400" height="300" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                            </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Project 2 -->
+                        <div class="col-md-6 mb-4" data-aos="fade-up">
+                            <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Airbnb Listings Analysis</h5>
+                                <p class="card-text">Performed exploratory data analysis on Airbnb listings to uncover factors that influence listing popularity.  
+                                Visualized trends in pricing, reviews, and location data to generate actionable insights.</p>
+                                <a href="https://github.com/bernandogunawan/Capstone_2" target="_blank" class="btn btn-primary">View on GitHub</a>
+                                <!-- Embedded Google Slides -->
+                                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSl0TkyybSN7wbqjtxb-BVy_FJ6NNHcNOzo8ycGLobyIggOXasSHdMynTQVgnF9Lg/pubembed?start=false&loop=true&delayms=3000" 
+                                    frameborder="0" width="400" height="300" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                </iframe>
+                            </div>
+                            </div>
+                        </div>
+
+
+                    <!-- Project 3 -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5" data-aos="fade-up">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Bank Service Churn Prediction</h3>
+                            <p>
+                                Built a machine learning classification model to predict customer churn for a bank.  
+                                Implemented preprocessing, feature selection, and ensemble models (AdaBoost, Random Forest).  
+                                Deployed an interactive app with Streamlit for predictions and insights.  
+                            </p>
+                            <a href="https://github.com/bernandogunawan/Churn_Prediction" target="_blank" class="btn btn-primary">View on GitHub</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 (Oldest) -->
+                    <div class="d-flex flex-column flex-md-row justify-content-between" data-aos="fade-up">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Car Rental Management System</h3>
+                            <p>
+                                Developed a Python-based program to assist car rental owners in managing their business.  
+                                Implemented features for vehicle availability, and rental transactions.  
+                            </p>
+                            <a href="https://github.com/bernandogunawan/Capstone_1-JCDS" target="_blank" class="btn btn-primary">View on GitHub</a>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+            <!-- Skills -->
+            <section class="resume-section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Skills</h2>
+
+                <!-- Programming / Tools -->
+                <div class="mb-4" data-aos="fade-up">
+                <h5>Programming & Tools</h5>
+                <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+                <div class="skill-item"><i class="fas fa-database"></i> SQL</div>
+                <div class="skill-item"><i class="fab fa-r-project"></i> R (basic)</div>
+                <div class="skill-item"><i class="fas fa-cogs"></i> Machine Learning</div>
+                <div class="skill-item"><i class="fas fa-chart-line"></i> Data Analysis</div>
+                <div class="skill-item"><i class="fas fa-chart-pie"></i> Data Visualization</div>
+                <div class="skill-item"><i class="fab fa-github"></i> GitHub</div>
+                <div class="skill-item"><i class="fas fa-file-excel"></i> Excel</div>
+                <div class="skill-item"><i class="fas fa-table"></i> Tableau</div>
+                <div class="skill-item"><i class="fas fa-brain"></i> Statistics & Hypothesis Testing</div>
+                <div class="skill-item"><i class="fas fa-rocket"></i> Streamlit Deployment</div>
+                </div>
+
+                <!-- Languages -->
+                <div class="mb-4" data-aos="fade-up">
+                <h5>Languages</h5>
+                <div class="skill-item"><i class="fas fa-language"></i> Indonesian (Fluent)</div>
+                <div class="skill-item"><i class="fas fa-language"></i> English (Fluent)</div>
+                <div class="skill-item"><i class="fas fa-language"></i> German (Basic)</div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div data-aos="fade-up">
+                <h5>Soft Skills</h5>
+                <div class="skill-item"><i class="fas fa-users"></i> Teamwork</div>
+                <div class="skill-item"><i class="fas fa-lightbulb"></i> Problem Solving</div>
+                <div class="skill-item"><i class="fas fa-comments"></i> Communication</div>
+                </div>
+
+            </div>
+            </section>
+            <hr class="m-0" />
+
+
+            <!-- Education-->
+            <section class="resume-section" id="education">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Education</h2>
+
+                <!-- Purwadhika -->
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5" data-aos="fade-up">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Purwadhika Digital Technology School</h3>
+                    <div class="subheading mb-3">Data Science & Machine Learning Program</div>
+                    <ul>
+                    <li>Python programming</li>
+                    <li>SQL and data management</li>
+                    <li>Data visualization (Tableau, Matplotlib)</li>
+                    <li>Machine learning algorithms</li>
+                    <li>Deployment with Streamlit</li>
+                    </ul>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">2025 (Ongoing)</span></div>
+                </div>
+
+                <!-- University -->
+                <div class="d-flex flex-column flex-md-row justify-content-between" data-aos="fade-up">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Saarland University</h3>
+                    <div class="subheading mb-3">Bachelor’s Program in Data Science & AI</div>
+                    <ul>
+                    <li>Mathematics & Statistics foundation</li>
+                    <li>Machine Learning and AI concepts</li>
+                    <li>Analytical thinking and problem solving</li>
+                    </ul>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">2020 - 2025</span></div>
+                </div>
+
+            </div>
+            </section>
+            <hr class="m-0" />
+
+
+           <!-- Certificates -->
+            <section class="resume-section" id="certificates">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Certificates</h2>
+
+                <div class="row g-4">
+                <!-- Certificate Card 1 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-certificate text-secondary me-2"></i>The Complete Python Bootcamp: From Zero to Hero</h5>
+                        <p class="card-text"> Udemy</p>
+                        <p class="card-text">31 may 2024</p>
+                        <a href="https://drive.google.com/file/d/1DK4X_4Nn9kndqMdvKZOaEkkRzWHTmZd8/view?usp=drive_link" class="btn btn-sm btn-primary mt-2" target="_blank">View Certificate</a>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 2 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-certificate text-secondary me-2"></i>Complete A.I and Machine Learning, Data Science Bootcamp</h5>
+                        <p class="card-text"> Udemy</p>
+                        <p class="card-text">25 July 2024</p>
+                        <a href="https://drive.google.com/file/d/1iIjqp5ZNqXPe8pO9OCUe8gF0h0xyOQF0/view?usp=drive_link" class="btn btn-sm btn-primary mt-2" target="_blank">View Certificate</a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Contact -->
+            <section class="resume-section" id="contact">
+            <div class="resume-section-content text-center">
+                <h2 class="mb-5">Contact me</h2>
+
+                <p class="mb-4"><em>"Turning data into meaningful insights."</em></p>
+
+                <ul class="list-inline dev-icons" data-aos="fade-up">
+                <li class="list-inline-item">
+                    <a href="mailto:bernandogunawan@gmail.com"><i class="fas fa-envelope"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.linkedin.com/in/bernando-gunawan-45790024b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/bernandogunawan" target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.instagram.com/bernandovirto/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                </ul>
+
+  </div>
+</section>
+<hr class="m-0" />
+
+
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- AOS JS -->
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+        <script>
+        AOS.init({
+            duration: 1000,   // animation duration in ms
+            once: true        // animation happens only once (not every scroll)
+        });
+        </script>
+
+    </body>
+</html>
